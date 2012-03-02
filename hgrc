@@ -1,0 +1,4 @@
+[ui]
+username = Richard Baron Penman
+verbose = True
+merge = internal:merge
