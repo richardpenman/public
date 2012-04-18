@@ -106,4 +106,4 @@ fi
 
 
 export PATH=${PATH}:$HOME/bin:$HOME/bin/gsutil
-export PYTHONPATH=${PYTHONPATH}:$HOME/python
+export PYTHONPATH=${PYTHONPATH}:$HOME/python:$HOME/gsutil/boto:$HOME/gsutil
