@@ -105,5 +105,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
-export PATH=${PATH}:$HOME/bin:$HOME/bin/gsutil
+export PATH=${PATH}:$HOME/bin:$HOME/gsutil
 export PYTHONPATH=${PYTHONPATH}:$HOME/python:$HOME/gsutil/boto:$HOME/gsutil
