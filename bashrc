@@ -81,7 +81,7 @@ fi
 alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
-alias duf='du -sh * | sort -h'
+alias duf='du -sh .[^.]* * | sort -h'
 alias mem='ps -u $USER --sort -rss -o pid,rss,command'
 
 # Add an "alert" alias for long running commands.  Use like so:
