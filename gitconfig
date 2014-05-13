@@ -1,3 +1,9 @@
 [user]
 	name = Richard Penman
 	email = richard@webscraping.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[github]
+	user = plumo
